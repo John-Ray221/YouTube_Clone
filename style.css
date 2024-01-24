@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+  }
+  
+  header {
+    padding: 0 16px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Start Section */
+  .start{
+    display:flex;
+    align-items: center;
+  }
+  .menu-btn{
+    padding:8px;
+  }
+  .yt-logo{
+    width: 120px;
+    height: 56px;
+    padding:0px 14px 0px 16px;
+  }
+
+/* Center Section */
+.center{
+    display:flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-right:15px;
+}
+.search-input{
+    width: 536px;
+    height: 40px;
+    background-color: #fff;
+    padding-left: 16px;
+    border-radius: 40px 0px 0px 40px;
+    border: solid 1px lightgray;
+    
+}
+.search-input > input{
+    width: 95%;
+    height: 100%;
+    margin:0px;
+    border:none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.search-btn{
+    width: 64px;
+    height: 40px;
+    border: solid 1px lightgray;
+    border-radius: 0px 40px 40px 0px;
+    padding:1px 6px;
+}
+.search-mic{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+}
+
+/* End Section */
+.end{
+    display:flex;
+    align-items: center;
+}
+.settings-menu{
+    padding:8px;
+}
+.signin-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:#065fd4;
+    width: 96px;
+    height: 34px;
+    border:solid 1px lightgray;
+    border-radius: 40px;
+}
+.signin-text{
+    font: 16px;
+    
+}
