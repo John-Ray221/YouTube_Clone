@@ -1,3 +1,4 @@
+/* Beginning of Part Two */
 html {
     height: 100%;
     width: 100%;
@@ -9,7 +10,8 @@ html {
     padding: 0px;
     margin: 0px;
     font-family: Roboto, sans-serif;
-    font-size: 10px;
+    font-size: 16px;
+    list-style-type: none;
   }
   
   header {
@@ -95,4 +97,64 @@ html {
 .signin-text{
     font: 16px;
     
+}
+
+/* End of Part Two */
+
+/* Beginnig of Part Four */
+nav{
+    width: 224px;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.guide{
+    width:216px;
+    padding:12px;
+    border-bottom:1px solid lightgray;
+}
+.yt-paper-item{
+    width: 204px;
+    height: 40px;
+    padding:12px;
+    display:flex;
+    align-items: center;
+}
+.yt-paper-icon{
+    margin-right:25px;
+
+}
+
+/* End of Part Four */
+
+/* Beginnig of Part Six */
+main{
+    display:flex;
+}
+
+.iron-selector{
+    height:56px;
+    width: 100%;
+    padding:12px 24px;
+}
+
+.iron-selector > ul{
+    display:flex;
+    align-items: center;
+}
+
+.iron-selector > ul > li{
+    font-weight: 500;
+    line-height: 2rem;
+    padding:0px 12px;
+    margin-left:12px;
+}
+
+.active{
+    background-color:black;
+    color:white;
+    border-radius: 8px;
 }
